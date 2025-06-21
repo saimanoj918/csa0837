@@ -1,0 +1,4 @@
+string="123456"
+integer=int(string)
+print(integer)
+print(type(integer))
