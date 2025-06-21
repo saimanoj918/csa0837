@@ -1,0 +1,4 @@
+string="123.456"
+float=float(string)
+print(float)
+print(type(float))
