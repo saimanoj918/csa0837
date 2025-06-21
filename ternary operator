@@ -1,0 +1,4 @@
+a=15
+b=20
+maximum=a if a>b else b
+print("th maximum number is:",maximum)
