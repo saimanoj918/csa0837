@@ -1,0 +1,4 @@
+n1="manoj"
+n2="ganesh"
+n=n1+" "+n2
+print(n)
