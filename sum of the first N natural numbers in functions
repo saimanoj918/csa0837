@@ -1,0 +1,4 @@
+def sum_natural_numbers(n):
+  return n*(n+1)//2
+num=10
+print(f"sum of first{num}natural number is:{sum_natural_numbers(num)}")
