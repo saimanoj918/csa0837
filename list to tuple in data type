@@ -1,0 +1,3 @@
+list=["one","two","three"]
+tuple=tuple(list)
+print(tuple)
