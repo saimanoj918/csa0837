@@ -1,0 +1,11 @@
+
+word ="level"
+is_palindrome = True
+for i in range(len(word)):
+  if word[i]!=word[len(word)-1-i]:
+    is_palindrome=False
+    break
+if is_palindrome:
+   print("it is a palindrome")
+else:
+   print("it is not a plindrome")
