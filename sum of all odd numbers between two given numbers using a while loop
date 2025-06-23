@@ -1,0 +1,10 @@
+n1=3
+n2=10
+if n1%2==0:
+  n1+=1
+sum=0
+current=n1
+while current<=n2:
+  sum+=current
+  current+=2
+print("sum is:",sum)
