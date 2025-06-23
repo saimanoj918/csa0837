@@ -1,0 +1,7 @@
+n=1234
+total=0
+while n>0:
+  digit = n%10
+  total+=digit
+  n//=10
+print("the total sum of digits is:",total)
