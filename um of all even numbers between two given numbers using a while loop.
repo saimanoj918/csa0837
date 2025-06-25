@@ -1,0 +1,10 @@
+a=4
+b=10
+if a%2!=0:
+  a+=1
+sum=0
+current=a
+while current<=b:
+  sum+=current
+  current+=2
+print("sum is:",sum)
