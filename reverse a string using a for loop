@@ -1,0 +1,5 @@
+a="manoj"
+reversed_a=""
+for ch in a:
+  reversed_a=ch+reversed_a
+print("reversed string:",reversed_a)
