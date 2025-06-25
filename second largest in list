@@ -1,0 +1,6 @@
+def second_largest(a):
+  largest=max(a)
+  a.remove(largest)
+  return max(a)
+n=[5,2,9,4,7]
+print("second largest number is:",second_largest(n))
