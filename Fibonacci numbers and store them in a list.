@@ -1,0 +1,7 @@
+n=5
+fibonacci_list=[]
+a,b=0,1
+for _ in range(n):
+  fibonacci_list.append(a)
+  a,b=b,a+b
+print("the first",n,"fibonacci numbers are:\n",fibonacci_list)
