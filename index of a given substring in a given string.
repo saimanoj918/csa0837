@@ -1,0 +1,7 @@
+a="manoj"
+b="oj"
+index=a.find(b)
+if index!=-1:
+  print(f"substring found at index{index}")
+else:
+  print("substring not found")
