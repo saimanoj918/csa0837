@@ -1,0 +1,5 @@
+num=[1,5,3,7,9,8]
+sorted_num=sorted(num)
+k=2
+kth_smallest=sorted_num[k-1]
+print(f"the {k}rd smallest element is:",kth_smallest)
