@@ -1,0 +1,3 @@
+text="manoj kumar"
+word_count=len(text.split())
+print("number of words:",word_count)
