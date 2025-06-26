@@ -1,0 +1,5 @@
+a=[7,5,9,3,6]
+n=9
+for i in range(len(a)):
+  if a[i]==n:
+    print(i)
