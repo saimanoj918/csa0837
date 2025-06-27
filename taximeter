@@ -1,0 +1,6 @@
+distance = float(input("Enter distance in km: "))
+waiting = float(input("Enter waiting time in minutes: "))
+
+fare = 3 + (2 * distance) + (0.5 * waiting)
+
+print("Total fare is:", fare)
