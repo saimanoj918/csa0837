@@ -1,0 +1,10 @@
+n = 2025
+
+s = str(n)
+if len(s) % 2 == 0:
+    half = len(s) // 2
+    left = int(s[:half])
+    right = int(s[half:])
+    print((left + right) ** 2 == n)
+else:
+    print(False)
