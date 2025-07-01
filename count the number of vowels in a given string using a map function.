@@ -1,0 +1,6 @@
+text="hELLO manoj"
+def is_vowel(char):
+  return char.lower() in 'aeiou'
+  return char.upper() in 'AEIOU'
+vowel_count=sum(map(is_vowel,text))
+print("number of vowels:",vowel_count)
