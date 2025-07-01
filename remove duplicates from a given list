@@ -1,0 +1,5 @@
+a= [1, 2, 2, 3, 4,4, 5,9,8]
+unique_list = list(set(a))
+
+print("Original list:", a)
+print("List after removing duplicates:", unique_list)
