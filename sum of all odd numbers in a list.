@@ -1,0 +1,6 @@
+a=[3,45,6,54,44,82]
+sum=0
+for i in a:
+  if i%2!=0:
+    sum+=i
+print("number of odd numbers:",sum)
