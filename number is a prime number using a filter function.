@@ -1,0 +1,6 @@
+num=int(input(" enter the number:\n"))
+divisors=list(filter(lambda x:num%x==0,range(2,num)))
+if num>1 and len(divisors)==0:
+  print("prime number")
+else:
+  print("not a prime number")
