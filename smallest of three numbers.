@@ -1,0 +1,9 @@
+a=10
+b=4
+c=8
+if a<=b or a<=c:
+  print("smallest number:",a)
+elif b<=a or b<=c:
+  print("smallest number:",b)
+else:
+  print("smallest number:",c)
