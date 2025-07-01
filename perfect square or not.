@@ -1,0 +1,5 @@
+n=9
+if int(n**0.5)**2==n:
+  print("it is a perfect square!")
+else:
+  print("not a perfect square.")
