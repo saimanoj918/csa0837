@@ -1,4 +1,8 @@
-import math
-a,b=60,48
-result=math.gcd(a,b)
-print(result)
+a = 12
+b = 18
+smaller = a if a < b else b
+while smaller > 0:
+    if a % smaller == 0 and b % smaller == 0:
+        print("GCD is", smaller)
+        break
+    smaller = smaller - 1
