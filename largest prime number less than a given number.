@@ -1,0 +1,15 @@
+n = int(input("Enter a number: "))
+num = n - 1
+
+while num > 1:
+    is_prime = True
+    i = 2
+    while i < num:
+        if num % i == 0:
+            is_prime = False
+            break
+        i = i + 1
+    if is_prime:
+        print("Largest prime less than", n, "is", num)
+        break
+    num = num - 1
