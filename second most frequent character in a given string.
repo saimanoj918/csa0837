@@ -1,0 +1,6 @@
+s="ganesh and gine"
+char=sorted(set(s),key=s.count,reverse=True)
+if len(char)<2:
+  print("no second most frequent character found")
+else:
+  print("second most frequent character :",char[1])
