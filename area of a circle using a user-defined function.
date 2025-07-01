@@ -1,0 +1,6 @@
+def area_of_cricle(radius):
+  pi=3.14
+  return pi*radius**2
+r=5
+area=area_of_cricle(r)
+print("area of circle with radius",r,"is",area)
