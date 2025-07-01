@@ -1,0 +1,5 @@
+from functools import reduce
+sentence=input(" enter the sentance :\n")
+word=sentence.split()
+longest=reduce(lambda a, b:a if a>len(b) else len(b),word,0)
+print("length of the longest word:",longest)
