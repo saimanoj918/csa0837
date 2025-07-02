@@ -1,0 +1,5 @@
+my_dict={'a':5,'b':6,'c':2,'d':9}
+max_key=max(my_dict,key=my_dict.get)
+min_key=min(my_dict,key=my_dict.get)
+print("key with max value:",max_key)
+print("key with min value:",min_key)
