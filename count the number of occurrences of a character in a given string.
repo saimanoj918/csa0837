@@ -1,0 +1,4 @@
+a="manoj"
+b="m"
+count=a.count(b)
+print(f"the character '{b}' appears {count} times")
