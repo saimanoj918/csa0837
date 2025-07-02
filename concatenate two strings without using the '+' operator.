@@ -1,0 +1,4 @@
+s1="hello"
+s2="manoj"
+result="{}{}".format(s1,s2)
+print("concateneted string:",result)
