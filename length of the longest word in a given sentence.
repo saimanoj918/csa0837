@@ -1,0 +1,7 @@
+sentence="ganesh is a good boy"
+words=sentence.split()
+longest=0
+for word in words:
+  if len(word)>longest:
+    longest=len(word)
+print("length of the longest word is:",longest)
