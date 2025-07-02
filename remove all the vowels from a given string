@@ -1,0 +1,7 @@
+text="manojkumar"
+vowels="aeiouAEIOU"
+result=""
+for char in text:
+  if char not in vowels:
+    result+=char
+print("string without vowels:",result)
