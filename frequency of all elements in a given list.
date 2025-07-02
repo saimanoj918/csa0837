@@ -1,0 +1,4 @@
+n=[3,5,3,2,5,5,2,4]
+for num in set(n):
+  count=n.count(num)
+  print(f"elements{num} ouccers {count} times")
