@@ -1,0 +1,5 @@
+n=[1,2,3,4,5,7,9]
+max_elements=max(n)
+min_elements=min(n)
+print("maximum elements:",max_elements)
+print("minimum elements:",min_elements)
