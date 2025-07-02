@@ -1,0 +1,18 @@
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+target = int(input("Enter the number to search: "))
+
+found = False
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        if matrix[i][j] == target:
+            print(f"Target {target} found at position ({i}, {j})")
+            found = True
+            break
+
+if not found:
+    print("Target not found")
