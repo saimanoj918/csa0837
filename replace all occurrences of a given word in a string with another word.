@@ -1,0 +1,5 @@
+text="hello world,ganesh"
+old_word="manoj"
+new_word="ganesh"
+result=text.replace(old_word,new_word)
+print("updated string:",result)
