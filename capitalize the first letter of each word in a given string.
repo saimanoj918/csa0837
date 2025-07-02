@@ -1,0 +1,3 @@
+a="manoj"
+capitalize_text=a.title()
+print("capitalize string:",capitalize_text)
