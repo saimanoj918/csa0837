@@ -1,0 +1,6 @@
+daily_profits = [100, -50, 200, 0, 150, -30, 400]
+total_profit = sum(daily_profits)
+average_profit = total_profit / len(daily_profits)
+print("Daily profits:", daily_profits)
+print("Total profit:", total_profit)
+print("Average daily profit:", average_profit)
