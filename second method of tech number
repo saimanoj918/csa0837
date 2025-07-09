@@ -1,0 +1,14 @@
+n=23555
+s=str(n)
+if len(s)%2==0:
+    half=len(s)//2
+    left=int(s[:half])
+    right=int(s[half:])
+    total=left+right
+    square=total*total
+    if square==n:
+        print(n,"is a tech number")
+    else:
+        print(n,"is not a tech number")
+else:
+    print("number must have even number of digits")
