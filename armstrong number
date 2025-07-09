@@ -1,0 +1,10 @@
+n=153
+s=str(n)
+digits=len(s)
+sum=0
+for digit in s:
+    sum+=int(digit)**digits
+if sum==n:
+    print("it is a armstrong number")
+else:
+    print("it is not an armstrong number")
