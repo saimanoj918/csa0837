@@ -1,0 +1,11 @@
+n=['a','b','c']
+s=2
+m=len(n)
+i=0
+while i<m:
+    j=i+1
+    while j<m:
+        if s==2:
+            print([n[i],n[j]])
+        j+=1
+    i+=1
