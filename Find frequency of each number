@@ -1,0 +1,7 @@
+n=[1,2,3,4,5,6,7,8,2,4]
+for i in n:
+    count=0
+    for j in n:
+        if i==j:
+            count+=1
+    print(i,"appears",count,"times")
