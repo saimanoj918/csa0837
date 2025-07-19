@@ -1,0 +1,5 @@
+a=[6,6,12,18,30]
+print("additive sequence")
+for i in range(len(a)-2):
+    if a[i]+a[i+1]==a[i+2]:
+        print(f"{a[i]}+{a[i+1]}={a[i+2]}")
