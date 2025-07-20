@@ -1,0 +1,5 @@
+a=2
+r=3
+n=5
+for i in range(n):
+    print(a*r**i,end=" ")
