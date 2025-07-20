@@ -1,0 +1,13 @@
+m = [
+    [1, 4, 7, 9],
+    [9, 3, 6, 10],
+    [2, 5, 8, 11],
+    [12, 15, 13, 80]
+]
+r, c = len(m), len(m[0])
+s = []
+while m:
+    s += m.pop(0)
+    if m: m = list(zip(*m))[::-1]
+for i in range(0, r*c, c):
+    print(s[i:i+c])
